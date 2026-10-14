@@ -1,3 +1,3 @@
 #!/bin/bash
-command=hostname
+command=hostnameee
 echo "The comamnd ran with status code is : $?"
