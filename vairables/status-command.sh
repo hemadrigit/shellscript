@@ -1,3 +1,3 @@
 #!/bin/bash
-command=hostnameee
+hostnameee
 echo $?
