@@ -1,5 +1,5 @@
 #!/bin/bash
 package () {
-dnf remove $@ -y
+dnf install $@ -y
 }
 package nginx httpd mysql
