@@ -1,6 +1,6 @@
 #!/bin/bas
-count=100
-while [ "$count" -le 10 ]
+count=1
+while [ "$count" -le 100 ]
 do
 echo "$count"
 count=$((count + 1 ))
