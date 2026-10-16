@@ -1,5 +1,5 @@
 #!/bin/bash
 package () {
-dnf install $@ -y
+dnf remove $@ -y
 }
 package nginx httpd
