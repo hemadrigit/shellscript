@@ -1,5 +1,5 @@
 #!/bin/bas
-count=1
+count=100
 while [ "$count" -le 10 ]
 do
 echo "$count"
