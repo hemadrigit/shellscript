@@ -1,5 +1,6 @@
 #!/bin/bash
 package () {
-yum remove $@ -y &>pkg-uninstall-output.sh
+dnf install $@ -y &>pkg-install-output.txt
+dnf remove $@ -y 2>&1 | tee install-output.txt
 }
 package nginx httpd mysql
