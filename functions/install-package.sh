@@ -2,4 +2,4 @@
 package () {
 dnf remove $@ -y
 }
-package nginx httpd
+package nginx httpd mysql
